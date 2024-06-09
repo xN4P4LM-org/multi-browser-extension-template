@@ -1,0 +1,9 @@
+# macfiles
+.DS_Store
+
+# node files
+node_modules
+
+# build files
+dist
+export
