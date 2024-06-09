@@ -10,9 +10,12 @@
     "url": "https://github.com/xN4P4LM-org/multi-browser-extension-template"
   },
   "scripts": {
+    "dev": "webpack watch --config ./webpack/webpack.dev.ts",
     "build": "webpack --config ./webpack/webpack.prod.ts",
+    "cleanBuild": "scripts/pack.sh cleanBuild",
     "package": "scripts/pack.sh",
-    "dev": "webpack watch --config ./webpack/webpack.dev.ts"
+    "clean": "scripts/pack.sh clean",
+    "lint": "eslint --debug"
   },
   "browser": {
     "chrome": "dist/manifest.json"

@@ -1,6 +1,6 @@
 # Multi-Browser Extension Template
 
-[![Build](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml)  [![Lint](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml) [![Dependabot Updates](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates) [![CodeQL](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml)
+[![Build](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml) [![Lint](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml) [![Dependabot Updates](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates) [![CodeQL](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml)
 
 This is a template for creating multi-browser extensions. It provides a starting point for developing browser extensions that can be used across different browsers such as Chrome and Firefox.
 
@@ -41,14 +41,11 @@ To get started with this template, follow these steps:
 
 ## Building the Extension
 
-To build the extension, run the following command:
+To build the extension, you just need to run `yarn package`. This will create a zip file in the `export` directory that can be uploaded to the Chrome Web Store or Mozilla Add-ons.
 
-```bash
-yarn install
-yarn package
-```
+## Linting
 
-This will create a zip file in the `export` directory that can be uploaded to the Chrome Web Store or Mozilla Add-ons.
+To lint the code, run `yarn lint`. This will run ESLint on the `src` directory with debug mode and show any errors or warnings.
 
 ## Contributing
 

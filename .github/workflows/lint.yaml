@@ -26,4 +26,4 @@ jobs:
 
         # Run verbose ESLint
       - name: Run ESLint
-        run: yarn eslint --debug
+        run: yarn lint
