@@ -1,6 +1,6 @@
 # Multi-Browser Extension Template
 
-[![Build](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml)  [![Lint](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml)
+[![Build](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/build.yaml)  [![Lint](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/lint.yaml) [![Dependabot Updates](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/dependabot/dependabot-updates) [![CodeQL](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/xN4P4LM-org/multi-browser-extension-template/actions/workflows/codeql.yml)
 
 This is a template for creating multi-browser extensions. It provides a starting point for developing browser extensions that can be used across different browsers such as Chrome and Firefox.
 
