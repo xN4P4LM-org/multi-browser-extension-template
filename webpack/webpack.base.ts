@@ -2,7 +2,6 @@ import path from "path";
 import webpack from "webpack";
 import dotenv from "dotenv";
 import CopyPlugin from "copy-webpack-plugin";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 dotenv.config();
 
