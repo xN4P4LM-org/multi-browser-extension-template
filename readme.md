@@ -13,6 +13,14 @@ This is a template for creating multi-browser extensions. It provides a starting
 - Includes a popup and options page example
 - Linting with ESLint
 
+## Package structure
+
+- `src` : contains the source code for the extension broken out into modules
+  - `popup` : contains the code for the popup page
+    ![popup](./.readme/popup.png)
+  - `config` : contains the code for the options page
+    ![config](./.readme/config.png)
+
 ## Currently Missing Features
 
 - [ ] Background script

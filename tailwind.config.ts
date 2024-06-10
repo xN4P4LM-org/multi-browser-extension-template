@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./src/**/*.{tsx,html,scss}", "./public/*.html"],
+  content: ["./src/**/*.{tsx,html,scss}"],
   darkMode: "media",
   theme: {
     extend: {},

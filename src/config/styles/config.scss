@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  background-color: lightgray;
+  padding: 1em;
+}

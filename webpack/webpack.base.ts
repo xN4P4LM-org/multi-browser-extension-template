@@ -37,14 +37,8 @@ const config: webpack.Configuration = {
         options: { minimize: true },
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          {
-            loader: "sass-loader",
-          },
-        ],
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
       },
     ],
   },
@@ -67,10 +61,11 @@ const config: webpack.Configuration = {
       patterns: [
         { from: "public", to: distDir },
         { from: "assets", to: `${distDir}/assets` },
+        {
+          from: `${sourceDir}/**/*.html`,
+          to: `${distDir}/[name][ext]`,
+        },
       ],
-    }),
-    new MiniCssExtractPlugin({
-      filename: "../css/[name].css", // Output to dist/css directory
     }),
   ],
   optimization: {

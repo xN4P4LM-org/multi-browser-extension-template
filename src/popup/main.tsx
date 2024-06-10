@@ -1,11 +1,13 @@
 import React from 'react';
-import '@/styles/popup.scss'
+import './styles/popup.scss'
 import { createRoot } from "react-dom/client";
+import Sections from './components/sections.tsx';
 
 function Main() {
     return (
-        <div className="w-52 h-52">
-            <div>Hello, Pop-up World!</div>
+        <div className="grid">
+            <div className='text-2xl justify-self-end'>Hello, Pop-up World!</div>
+            <Sections />
         </div>
     )
 }

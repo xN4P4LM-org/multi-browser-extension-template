@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+// set page size
 :root {
   background-color: lightgray;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
 }
