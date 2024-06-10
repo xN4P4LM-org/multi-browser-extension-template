@@ -20,6 +20,14 @@ This is a template for creating multi-browser extensions. It provides a starting
     ![popup](./.readme/popup.png)
   - `config` : contains the code for the options page
     ![config](./.readme/config.png)
+  - `manifest.json` : contains the manifest for the extension
+- `dist` : contains the built extension
+- `export` : contains the packaged extension
+- `.readme` : contains images for the readme
+- `.github` : contains GitHub Actions workflows (This folder can be deleted if yo do not intend to use GitHub Actions)
+  - `workflows` : contains the workflows for the repository
+  - `CODEOWNERS` : contains the code owners for the repository
+  - `dependabot.yml` : contains the configuration for Dependabot
 
 ## Currently Missing Features
 

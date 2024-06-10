@@ -59,8 +59,15 @@ const config: webpack.Configuration = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "public", to: distDir },
-        { from: "assets", to: `${distDir}/assets` },
+        // Add new patters here as needed for other assets
+        {
+          from: `${sourceDir}/assets/icon*.png`,
+          to: `${distDir}/assets/icon/[name][ext]`,
+        },
+        {
+          from: `${sourceDir}/manifest.json`,
+          to: `${distDir}/[name][ext]`,
+        },
         {
           from: `${sourceDir}/**/*.html`,
           to: `${distDir}/[name][ext]`,
