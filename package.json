@@ -30,7 +30,7 @@
     "@eslint/js": "~9.4.0",
     "@ianvs/prettier-plugin-sort-imports": "~4.2.1",
     "@swc/cli": "~0.3.12",
-    "@swc/core": "~1.5.25",
+    "@swc/core": "~1.6.5",
     "@types/chrome": "~0.0.268",
     "@types/node": "~20.14.2",
     "@types/react": "~18.3.3",
